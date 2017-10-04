@@ -10,7 +10,7 @@ public class MyMath {
       public static boolean isEvent(int a){
           return (a%2==0);
       }
-      public static int mx(int a, int b){
+      public static int max(int a, int b){
           if(a>=b)
               return a;
           else
@@ -23,4 +23,13 @@ public class MyMath {
           else
               return a;
       }
+      public static int min3(int a, int b,int c){
+          int min=min(a,b);
+          return min(min ,c);
+      }
+      public static int max3(int a ,int b, int c){
+          int max=max(a ,b);
+          return max(max ,c);
+      }
+
 }
