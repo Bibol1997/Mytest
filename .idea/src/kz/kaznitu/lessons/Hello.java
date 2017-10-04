@@ -13,6 +13,8 @@ public class Hello {
         System.out.println(MyMath.isEvent(12));
         System.out.println(MyMath.isEvent(7));
 
+        System.out.println(" max=  " +  MyMath.max3(8,9,12));
+        System.out.println("min="  + MyMath.max3(12,8,15));
     }
 
 }
